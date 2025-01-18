@@ -14,5 +14,8 @@ app.use('/', (req, res, next)=>{
     next();
 });
 
+
+console.log(second);
+
 console.log('-: App Running :-');
 app.listen(3000);
