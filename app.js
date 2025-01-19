@@ -4,6 +4,7 @@ const express   = require('express');
 const app       = express();
 
 app.use('/test', function(){
+    let first = 998;
     console.log(first);
 });
 
