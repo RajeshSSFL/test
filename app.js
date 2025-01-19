@@ -3,15 +3,16 @@ console.log('\n\n-: App Started :-');
 const express   = require('express');
 const app       = express();
 
-app.use('/test', function(){
-    let first = 998;
+app.use('/test', function(req, res){
+    let first = parseInt(Math.random()*10000);
     console.log(first);
+    res.send('-: Test Page :-'+first);
 });
 
 
 app.use('/', (req, res, next)=>{
     console.log('-: Welcome :-');
-    res.send('-: Welcome :-');
+    res.send('-: Home Page :-');
     next();
 });
 
