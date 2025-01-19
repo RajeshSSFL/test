@@ -9,7 +9,7 @@ app.use('/test', function(req, res){
     res.send('-: Test Page :-'+first);
 });
 
-app.use('/testing', function(req, res){
+app.use('/testinga', function(req, res){
     let first = parseInt(Math.random()*10000);
     console.log(first);
     res.send('-: Testing Home Page :-'+first);
