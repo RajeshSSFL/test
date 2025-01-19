@@ -20,6 +20,7 @@ pipeline {
 
                 // Check if http://localhost:8000/test is up
                 bat 'curl -I http://localhost:3000/test'
+                bat 'curl -I http://localhost:3000/testing'
 
                 //bat 'npm test'
             }
