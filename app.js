@@ -27,3 +27,5 @@ app.use('/three', (req, res, next)=>{
 
 console.log('-: App Running :-');
 app.listen(3000);
+const address = server.address();
+console.log('Address : ',address);
