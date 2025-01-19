@@ -16,7 +16,7 @@ app.use('/newtesting', function(req, res){
 });
 
 
-app.use('/', (req, res, next)=>{
+app.use('/getu', (req, res, next)=>{
     console.log('-: Welcome :-');
     res.send('-: Home Page :-');
     next();
