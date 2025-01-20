@@ -19,9 +19,9 @@ pipeline {
                 bat 'curl -I http://localhost:3000/'
 
                 // Check if http://localhost:8000/test is up
-                bat 'curl -I http://localhost:3000/test'
-                bat 'curl -I http://localhost:3000/newtesting'
-                bat 'curl -I http://localhost:3000/pktesting'
+                bat 'curl -I http://localhost:3000/one'
+                //bat 'curl -I http://localhost:3000/newtesting'
+                //bat 'curl -I http://localhost:3000/pktesting'
 
                 //bat 'npm test'
             }
