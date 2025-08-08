@@ -9,7 +9,7 @@ const app = express();
 
 // Basic route
 app.get('/product', (req, res) => {
-  res.status(200).send('NewProduct! 12345');
+  res.status(200).send('NewProduct! 12345 344');
 });
 
 app.get('/', (req, res) => {
